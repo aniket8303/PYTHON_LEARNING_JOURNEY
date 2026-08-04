@@ -1,0 +1,14 @@
+# a = (1,2,5 ,False , "Rohan", "Shivam")
+# b = ()
+# c = (1)
+# d = (1,)
+# print(type(a))  #<class 'tuple'>
+# print(type(b))  #<class 'tuple'>
+# print(type(c))  #<class 'int'>
+# print(type(d))  #<class 'tuple'>
+
+
+e = (1,2,3,"Shivam", "Mahesh","Ram")
+print(e)
+e[0] = 23  #tuple cannot be change
+print(e(0))  #TypeError: 'tuple' object is not callable
